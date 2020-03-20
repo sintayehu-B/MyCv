@@ -1,6 +1,7 @@
 /* Element selector*/
 body{
-    background-color: skyblue;
+    background-image: url('../images/cool-background.png');
+    
     margin: 10px;
 
 }
