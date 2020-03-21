@@ -46,6 +46,9 @@ img{
 	background-size: cover;
 	padding: 40px 0;
 }
+h3{
+    text-align: center;
+}
 .contact h1{
 	text-align: center;
 	color: #ddd;

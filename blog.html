@@ -64,21 +64,65 @@
                 <p class="date">
                     March 11 2020, 2:37pm
                 </p>
-            
-            <p class="title">My Second Post</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In reiciendis necessitatibus recusandae dolorem accusantium beatae ipsum consequatur, nobis nostrum magnam nisi voluptatibus neque veritatis porro quae dicta obcaecati voluptatum enim.
-            Similique eius animi dolore maxime voluptates? Asperiores repellendus excepturi qui corrupti, modi aperiam optio tempore quisquam, dolor ut error inventore laborum voluptates saepe sit nam cupiditate earum accusantium laudantium minima.
-            Ipsam autem officiis odio beatae quae inventore ipsa eum nesciunt accusantium omnis esse ipsum perferendis sequi temporibus nulla voluptatibus dolorem quod facere doloremque quidem, dolor, quo commodi est quis? Ea.
-            Perferendis non necessitatibus velit. <br> <br> Quibusdam sit sapiente, illum magnam, ea aliquam asperiores iure a laborum repudiandae iste? Modi hic, voluptatem ab doloribus dolore et nemo quis, nisi unde aut placeat.
-            Quos eius inventore temporibus adipisci nesciunt laudantium facilis nulla delectus ab architecto porro ducimus nostrum magni provident possimus perferendis, a eum reiciendis? Esse accusamus modi dolor cumque debitis corrupti nihil?
-            Non cum, nihil quod ad explicabo, ea voluptatem animi fugiat blanditiis sed suscipit pariatur illum! Quaerat rem, aliquam corrupti velit soluta architecto eos nihil dolor similique minus necessitatibus ab illum.
-            Exercitationem illo labore quidem odit deleniti! Modi sapiente consequatur, fugit eius maxime, expedita possimus sequi velit soluta magni aut quisquam minus mollitia molestiae libero laboriosam optio culpa. Exercitationem, culpa alias.
-            Non consequatur debitis ad, officiis molestias veritatis rem ex. <br> <br> Placeat neque incidunt, consectetur esse laboriosam aliquam ipsam sapiente repellat nulla sunt. Earum odio in, explicabo reprehenderit ut voluptates est modi!
-            Maxime sed quas adipisci possimus, molestiae eos laudantium nemo voluptate atque excepturi debitis, voluptatem explicabo. Ipsam explicabo asperiores quidem fugit eos eveniet quod repellendus doloremque, cum dolore vitae officiis vero.
-            Vel recusandae sapiente tenetur maxime alias sit nisi cumque laboriosam qui optio unde officia temporibus maiores vero porro iusto odio autem, provident voluptatum quisquam aliquam, exercitationem soluta? Nisi, numquam doloremque.</p>
-            <p class="date">
-                March 11 2020, 3:05pm
+            <p class="title">How Does the browser relate to the new font-sizing set to it.</p>
+            <p>We said 16px is default browser width so what does it mean when we say 200px ? How does the browser interpret that ?</p>
+            <p>In IE 6 and below, font-size set in pixels cannot be resized by the user.
+                If we haven’t set font-size ant where on the page, then it would be the browser default which is 16 px. So by default 1em = 16px. If we were to go and set a font-size of 200px on our body, then 1em = 200px.
+                With that being said the browser will interpret that as a new default for the browser and if no font-size is set to the particular, then the browser will assign the default value of 16px to that particular attribute. 
+                .
             </p>
+            <p class="date">
+                March 20 2020, 10:44pm
+            </p>
+            <p class="title">Specific Changes in CSS3</p>
+            <p>Explain in detail(in technical terms) the specific changes in css3?</p>
+            <p>CSS3 version supports many more browsers than CSS2 but be sure to test it on all operating system and browser. And CSS3 is advanced than CSS.New features added in CSS3 <br>
+            1. New Pseudo-element <br>
+            2. Transition <br>
+            3. Claculating value with calc() <br>
+            4. Box sizing <br>
+            5. Generated content & counters <br>
+            6. Border images <br>
+            7. Media quires <br>
+            8. 3d transformations <br>
+            9. Text shadow <br>
+            10. Sun filter
+            <h5>New Pseudo-element </h5>
+            <p>New Pseudo-element: A CSS pseudo-element is used to style specified parts of an element.
+                For example, it can be used to: <br>
+                •	Style the first letter, or line, of an element <br>
+                •	Insert content before, or after, the content of an element 
+            </p>
+            <h5>Transition </h5>
+            <p>Perhaps the most exciting addition to CSS3 is the ability to apply animations to elements, without the use of JavaScript</p>
+            <h5>Claculating value with calc() </h5>
+            <p>calc() is a native CSS way to do simple math right in CSS as a replacement for any length value (or pretty much any number value). It has four simple math operators: add (+), subtract (-), multiply (*), and divide (/). Being able to do math in code is nice and a welcome addition to a language that is fairly number heavy. The calc() CSS function lets you perform calculations when specifying CSS property values. It can be used anywhere a length, frequency, angle, time, percentage, number, or integer is allowed.</p>
+            <h5>Box sizing</h5>
+            <p>The box-sizing property can make building CSS layouts easier and a lot more intuitive, The box-sizing property in CSS controls how the box model is handled for the element it applies to. This is often called "universal box-sizing", and it's a good way to work! The (literal) width you set is the width you get, without having to perform mental math and manage the complexity that comes from widths that come from multiple properties. We even have a box-sizing awareness day around here.</p>
+            <h5>Generated content & counters</h5>
+            <p>Generated content was first introduced in the CSS2 specification. For several years, the feature was used by relatively few Web authors due to inconsistent browser support. In technical terms, generated content is a simple abstraction created by CSS in the document tree. As such, in practical terms, generated content exists only in the layout of the Web document.</p>
+            <h5>Border images</h5>
+            <p>The new CSS3 property border-image is a little tricky, but it can allow you to create flexible boxes with custom borders (or drop shadows, if that's your thing) with a single div and a single image. In this article, I explain how the border-image shorthand property works in today's browsers. <br>
+                1.  An image to use as the border <br>
+                2.	Where to slice that image, dividing the image into 9 sections <br>
+                3.	How the browser should apply those sections to the edges of your element
+                </p>
+            <h5> Media quires</h5>
+            <p>Media quires let the content adapt to screen resolution, such as altering the size of pictures and text based on the screen size. It became a web standard in 2012.</p>
+            <h5>3d transformations</h5>
+            <p>With the introduction of CSS transforms, elements could be shifted, rotated, slanted, squashed and stretched. Web designers were finally able to catch up to print designers. With CSS 3D transforms, web designers can move past their print counterparts and explore a new realm in graphic design.</p>
+            <h5>Text shadow</h5>
+            <p>text-shadow is one of the few CSS properties that we can omit the use of vendor-prefixes. Quite similar to box-shadow, it must be applied to text, and receives the same four parameters:</p>
+            <h5>Multiple Backgroungs</h5>
+            <p>The background property has been overhauled to allow for multiple backgrounds in CSS3.
+                Let's create a silly example, simply as a proof of concept. For lack of any suitable images nearby, I'll use two tutorial images as our backgrounds. Of course, in a real-world application, you might use a texture and, perhaps, a gradient for your backgrounds. 
+                </p>
+
+      
+            <p class="date">
+                March 21 2020, 12:30 pm
+            </p>
+            
             </article>
             
             
