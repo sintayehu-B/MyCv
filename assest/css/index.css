@@ -1,5 +1,5 @@
 body{
-	background-image: url('../image/pfEBcj.jpg');
+	background-image: url('../images/helicopter-2116170_1280.jpg');
 	background-size: cover;
 	
 
@@ -41,44 +41,16 @@ p{
 }
 ul li a:hover{
 	transition:scale(1.1);
-	background-color: red;
+	background-color: navy;
 }
 nav #container ul li a:visited{
 	color:#ff9000;
 
 }
-.siderbar{
-	border-bottom: hidden;
-	display:inline-flex;
-	
-	
-}
-
-.footer{
-	background:#333;
-	color:#000;
-	text-align: center;
-	padding: 20px;
-	margin-top: 40%;
-}
-	
-.siderbar a {
-	margin: 40%;
-	padding: 10PX;
-	box-sizing: border-box;
-}
 .img{
 	width:20%;
 	border-radius: 50px;
 }
-
-#main{
-	
-	color:#fafafa;
-	
-	 
-}
-
 .container {
 	width: 250px;
 	height:250px;
@@ -86,7 +58,11 @@ nav #container ul li a:visited{
 	padding: 30px;
 
 }
-.sec{
-	color:#fff;
-	margin:0 100px 0 100px;
+
+.footer{
+	background:#333;
+	color:#000;
+	text-align: center;
+	padding: 20px;
+	margin-top: 10%;
 }

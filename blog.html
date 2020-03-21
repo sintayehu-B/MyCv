@@ -35,10 +35,10 @@
                 <p>I admit that I like that simplicity, but I'm starting to think it's a little too dreamy for all but the simplest of sites. The main issue: you just can't expect type that you set at one screen size to look just right by simply scaling it down entirely proportionally. Big type might get too big scaling up. Small type might get too small (a common one that gets me). Or even the reverse of either, where big type might not get small enough. 
                     If any of those things happen, then you're making @media query specific adjustments which not only gets confusing but isn't very efficient (adjusting size just to adjust it again to fix it). 
                     So here's my idea: you still keep px size adjustments at the document level so you can make easy/efficient sweeping size changes. But then each module on the page has a font-size set in rem. Actual text elements (h1, h2, p, li, whatever), if you size them at all, are sized in em, and thus become relative to the module.
-                    This way you can adjust font-size at a module level, which is pretty easy. The chances the type within a single module have good proportions and can scale together nicely is high. <br> We end here our encounter with CSS rem units. It is obvious that there are many advantages in using these units in our code, like responsiveness, scalability, improved reading experience, and greater flexibility in defining components. Rem units not a universal silver bullet solution but, with careful deployment, they can solve many problems that have irked developers for years. It’s up to each one of us to unlock the full potential of rems. Start your editors, experiment and share your results with the rest of us.
+                    This way you can adjust font-size at a module level, which is pretty easy. The chances the type within a single module have good proportions and can scale together nicely is high. <br> We end here our encounter with CSS rem units. It is obvious that there are many advantages in using these units in our code, like responsiveness, scalability, improved reading experience, and greater flexibility in defining components. Rem units not a universal silver bullet solution but, with careful deployment, they can solve many problems that have irked developers for years.
                 </p>
                 <p class="date">
-                    March 11 2020, 2:37pm
+                    March 20 2020, 2:37pm
                 </p>
             <p class="title">How Does the browser relate to the new font-sizing set to it.</p>
             <p>We said 16px is default browser width so what does it mean when we say 200px ? How does the browser interpret that ?</p>
@@ -63,6 +63,7 @@
             8. 3d transformations <br>
             9. Text shadow <br>
             10. Sun filter
+            </p>
             <h5>New Pseudo-element </h5>
             <p>New Pseudo-element: A CSS pseudo-element is used to style specified parts of an element.
                 For example, it can be used to: <br>
@@ -82,7 +83,7 @@
                 1.  An image to use as the border <br>
                 2.	Where to slice that image, dividing the image into 9 sections <br>
                 3.	How the browser should apply those sections to the edges of your element
-                </p>
+            </p>
             <h5> Media quires</h5>
             <p>Media quires let the content adapt to screen resolution, such as altering the size of pictures and text based on the screen size. It became a web standard in 2012.</p>
             <h5>3d transformations</h5>
@@ -92,7 +93,7 @@
             <h5>Multiple Backgroungs</h5>
             <p>The background property has been overhauled to allow for multiple backgrounds in CSS3.
                 Let's create a silly example, simply as a proof of concept. For lack of any suitable images nearby, I'll use two tutorial images as our backgrounds. Of course, in a real-world application, you might use a texture and, perhaps, a gradient for your backgrounds. 
-                </p>
+            </p>
 
       
             <p class="date">
@@ -104,8 +105,8 @@
             
         </section>
     </div>
-    <div class="">
-
-    </div>
+    <footer class="footer">
+        <p>Copyright &copy; 2020 Sintayehu Sermessa</p>
+    </footer>
 </body>
 </html>

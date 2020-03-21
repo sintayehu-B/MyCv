@@ -50,3 +50,10 @@ img{
     height: 250px;
     margin: 0px 15px 0px 3px;
 }
+.footer{
+	background:#333;
+	color:#000;
+	text-align: center;
+	padding: 20px;
+	margin-top: 10%;
+}
